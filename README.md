@@ -14,7 +14,7 @@ Quick start
 4. Press Create Blueprint
 5. 
 Output
-- Produces a blueprint file .sbp 
+- Produces a blueprint file .sbp in outputBlueprint 
 
 Contributing
 - Open issues for bugs/features. Fork, branch, and submit PRs with tests or examples.
