@@ -32,6 +32,14 @@ Quick start
 Output
 - Produces a blueprint file .sbp in outputBlueprint 
 
+Build
+
+To build it you need (on Windows):
+1. Download this repo
+2. cd ImagesToSatisfactoryBlueprints
+3. npm run build
+4. run the .exe in the release folder
+
 Contributing
 - Open issues for bugs/features. Fork, branch, and submit PRs with tests or examples.
 
