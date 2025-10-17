@@ -5,11 +5,15 @@ declare global {
   interface Window {
     electronAPI: {
       selectImage: () => Promise<string | null>;
-      proccessImage: () => Promise<string | null>;
+      proccessImage: (imagePath: string, options: any) => Promise<string | null>;
+      selectDir: () => Promise<string | null>;
     };
   }
 }
+// In preload.ts
 contextBridge.exposeInMainWorld('electronAPI', {
   selectImage: () => ipcRenderer.invoke('select-image'),
-  proccessImage: () => ipcRenderer.invoke("process-image")
-});
+  proccessImage: (imagePath: string, options: any) => ipcRenderer.invoke("process-image", imagePath, options),
+  selectDir: () => ipcRenderer.invoke('select-dir')
+})
+

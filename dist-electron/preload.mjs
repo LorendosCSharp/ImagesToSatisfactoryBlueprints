@@ -1,7 +1,1 @@
-"use strict";
-const electron = require("electron");
-electron.contextBridge.exposeInMainWorld("electronAPI", {
-  selectImage: () => electron.ipcRenderer.invoke("select-image"),
-  proccessImage: () => electron.ipcRenderer.invoke("process-image"),
-  selectDir: () => electron.ipcRenderer.invoke("select-dir")
-});
+"use strict";const e=require("electron");e.contextBridge.exposeInMainWorld("electronAPI",{selectImage:()=>e.ipcRenderer.invoke("select-image"),proccessImage:(r,c)=>e.ipcRenderer.invoke("process-image",r,c),selectDir:()=>e.ipcRenderer.invoke("select-dir")});

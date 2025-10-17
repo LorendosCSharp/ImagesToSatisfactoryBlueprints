@@ -1,4 +1,4 @@
-import { app, BrowserWindow, dialog, ipcMain } from 'electron';
+import { app, BrowserWindow } from 'electron';
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { setupIpcHandlers } from './ipcHandler';
@@ -18,7 +18,12 @@ let win: BrowserWindow | null
 
 function createWindow() {
   win = new BrowserWindow({
-    icon: path.join(process.env.VITE_PUBLIC, 'electron-vite.svg'),
+    icon: path.join(process.env.VITE_PUBLIC, 'icon.png'),
+    width: 1200,  // initial width
+    height: 1200, // initial height
+    minWidth: 600,   // minimum width
+    minHeight: 800,
+
     webPreferences: {
       preload: path.join(__dirname, 'preload.mjs'),
     },

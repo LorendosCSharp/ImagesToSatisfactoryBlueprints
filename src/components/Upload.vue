@@ -15,9 +15,9 @@ function pickImage() {
 </script>
 
 <template>
-  <div class="w-[30dvh] pb-4 relative">
+  <div class="w-[25rem] h-[25rem] relative rounded-xl overflow-hidden shadow-lg">
     <button
-      class="w-full h-full rounded-md overflow-hidden relative flex items-center justify-center bg-gray-200"
+      class="w-full h-full bg-[#2b2b2b] hover:bg-[#333] text-gray-300 rounded-xl flex items-center justify-center"
       @click="pickImage"
     >
       <img
@@ -26,7 +26,8 @@ function pickImage() {
         alt="Selected"
         class="absolute inset-0 w-full h-full object-cover"
       />
-      <span v-if="!imagePath" class="text-white font-bold z-10">Upload</span>
+      <span v-if="!props.imagePath" class="font-semibold text-lg">Select Image</span>
     </button>
   </div>
 </template>
+
