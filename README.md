@@ -7,12 +7,28 @@ What it does
 - Maps image pixels to signs
 - Exports an importable blueprint file for use with Satisfactory 
 
+Showcase
+
+Deletes transparent background
+![Image with transparent Background](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213450.png)
+![Image with transparent Background](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213522.png)
+![Image with transparent Background](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213530.png)
+
+Different sign sizes
+![Image with large signs](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213831.png)
+
+Different image brighness
+![Image with large signs and high brightness](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213736.png)
+
+
 Quick start
 1. Build or download the tool (follow repo build steps).
 2. Open the app 
 3. Select image and set values
 4. Press Create Blueprint
-5. 
+
+
+
 Output
 - Produces a blueprint file .sbp in outputBlueprint 
 
