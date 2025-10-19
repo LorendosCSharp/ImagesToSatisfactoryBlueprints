@@ -1,5 +1,54 @@
-# Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# ImagesToSatisfactoryBlueprints
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Convert raster images into Satisfactory blueprints — fast, configurable, and practical for creating pixel-art 
+
+What it does
+- Maps image pixels to signs
+- Exports an importable blueprint file for use with Satisfactory 
+
+Showcase
+
+Deletes transparent background
+![Image with transparent Background](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213450.png)
+![Image with transparent Background](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213522.png)
+![Image with transparent Background](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213530.png)
+
+Different sign sizes
+![Image with large signs](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213831.png)
+
+Different image brighness
+![Image with large signs and high brightness](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213736.png)
+
+
+Quick start
+1. Build or download the tool (follow repo build steps).
+2. Open the app 
+3. Select image and set values
+4. Press Create Blueprint
+
+
+
+Output
+- Produces a blueprint file .sbp in outputBlueprint 
+
+Build
+
+To build it you need (on Windows):
+1. Download this repo
+2. cd ImagesToSatisfactoryBlueprints
+3. npm run build
+4. run the .exe in the release folder
+
+Contributing
+- Open issues for bugs/features. Fork, branch, and submit PRs with tests or examples.
+
+License
+- MIT
+
+Contact
+- Maintainer: @LorendosCSharp — open issues on GitHub for support or feature requests.
+
+Uses https://github.com/etothepii4/satisfactory-file-parser to parse and serialize blueprints
+
+
