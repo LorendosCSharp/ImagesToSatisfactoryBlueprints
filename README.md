@@ -34,11 +34,11 @@ Output
 
 Build
 
-To build it you need (on Windows):
+To build it you need:
 1. Download this repo
 2. cd ImagesToSatisfactoryBlueprints
 3. npm run build
-4. run the .exe in the release folder
+4. copy the folder dist (this is the app)
 
 Contributing
 - Open issues for bugs/features. Fork, branch, and submit PRs with tests or examples.
