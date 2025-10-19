@@ -95,7 +95,7 @@ function downloadArrayBuffer(buffer: ArrayBuffer, filename: string) {
     </div>
     <!-- Small settings(Toggles) -->
     <div class="grid gap-2  grid-cols-2">
-      <Toggle v-model="skipTransparentPixels" label="Enable Feature" />
+      <Toggle v-model="skipTransparentPixels" label="Skip Transparent" />
     </div>
 
     <!-- Create Button -->
