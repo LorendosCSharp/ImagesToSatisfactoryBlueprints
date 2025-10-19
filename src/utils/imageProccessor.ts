@@ -1,5 +1,5 @@
-import * as ParserPkg from "@etothepii/satisfactory-file-parser";
 
+import * as ParserPkg from '../libs/satisfactory-file-parser';
 const { Parser } = ParserPkg;
 
 type SignSize = "tiny" | "medium" | "large"

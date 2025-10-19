@@ -1,16 +1,13 @@
-// vite.config.ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import { nodePolyfills } from 'vite-plugin-node-polyfills'
 
 export default defineConfig({
   base: '/ImagesToSatisfactoryBlueprints/',
-  plugins: [vue()],
-  optimizeDeps: {
-    include: ['@etothepii/satisfactory-file-parser']
-  },
+  plugins: [vue(), nodePolyfills()],
   build: {
     commonjsOptions: {
-      include: [/@etothepii/, /node_modules/]
-    }
-  }
+      include: [/node_modules/, /@etothepii/],
+    },
+  },
 })
