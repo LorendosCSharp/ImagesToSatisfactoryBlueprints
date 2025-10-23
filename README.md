@@ -1,6 +1,8 @@
 
 # ImagesToSatisfactoryBlueprints
 
+[Avaliable here](https://lorendoscsharp.github.io/ImagesToSatisfactoryBlueprints/)
+
 Convert raster images into Satisfactory blueprints — fast, configurable, and practical for creating pixel-art 
 
 What it does
@@ -19,14 +21,6 @@ Different sign sizes
 
 Different image brighness
 ![Image with large signs and high brightness](https://github.com/LorendosCSharp/ImagesToSatisfactoryBlueprints/blob/main/Showcase/Screenshot_20251017-213736.png)
-
-
-Quick start
-1. Build or download the tool (follow repo build steps).
-2. Open the app 
-3. Select image and set values
-4. Press Create Blueprint
-
 
 
 Output
